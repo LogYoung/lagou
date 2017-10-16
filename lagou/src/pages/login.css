@@ -1,0 +1,88 @@
+.loginhtml{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 7rem;
+	background: -webkit-linear-gradient(135deg,#029253,#00887b);
+	z-index: 999999;
+}
+.logininput{
+	width: 90%;
+    padding-top:20px;
+    margin: 0 auto;
+}
+.logininput .eyes{
+	width: 20px;
+    height: 13px;
+    background-size: 20px 30px !important;
+    position: absolute;
+    top:16%;
+    right: 10%;
+    -moz-transition: transform .3s linear 0s;
+    -webkit-transition: transform .3s linear 0s;
+    -o-transition: transform .3s linear 0s;
+    transition: transform .3s linear 0s;
+
+}
+.logininput .loginusername{
+	border-bottom: 1px solid #e0e0e0;
+    border-radius:5px 5px 0 0;
+}
+.logininput .loginuserpsw{
+	 border-radius:0 0 5px 5px;
+}
+.logininput input{
+	width: 90%;
+    border: 0;
+    outline: 0;
+    font: 0.19rem "黑体";
+    color: #333;
+    background: #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    padding: 6% 5%;
+    margin: 0;
+}
+.loginbtn{
+	width: 90%;
+    margin: 0 auto;
+}
+.loginbtn p{
+	color: #45e3be;
+    font-size: 0.13rem;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+.loginbtn .rgbtn{
+	display: block;
+    width: 90%;
+    font-size: 0.22rem;
+    color: #45e3be;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #45e3be;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 5%;
+}
+.loginbtn .lgbtn{
+	text-decoration: none;
+	display: block;
+    width: 90%;
+    font-size: 0.22rem;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    background: #0ac599;
+    -webkit-box-shadow: 0 2px 0 #008765;
+    -moz-box-shadow: 0 2px 0 #008765;
+    box-shadow: 0 2px 0 #008765;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 5%;
+}

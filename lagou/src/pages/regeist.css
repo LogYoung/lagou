@@ -1,0 +1,156 @@
+.regeistbox{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 7rem;
+	background: -webkit-linear-gradient(135deg,#029253,#00887b);
+	z-index: 999999;
+}
+.regeistbox .phenebox,.regeistbox .pawbox{
+	width: 90%;
+    padding: 20px 0;
+    margin: 0 auto;
+    position: relative;
+}
+.regeistbox .phenebox input{
+	width: 90%;
+    border: 0;
+    outline: 0;
+    font: 0.2rem "黑体";
+    color: #333;
+    background: #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 5px;
+    padding: 6% 5%;
+    margin-bottom:10px;
+}
+.regeistbox .phenebox .yzmImg img{
+	display: block;
+    margin: 0 0 20px;
+    overflow: hidden;
+    float: left;
+    width: 113px;
+    height: 46px;
+    line-height: 42px;
+}
+.regeistbox .phenebox .yzmImg .text{
+	margin-left: 20px;
+    font-size: 0.16rem;
+    color: #45e3be;
+    letter-spacing: 1px
+}
+.pheneinfo{
+	position: absolute;
+	display: block;
+	color: red;
+	font-size:0.1rem;
+	top:18%;
+	right: 0;
+}
+.regeistbox .phenebox .yzmImg .text a{
+	color: #9bffd3;
+    font-style: normal;
+    line-height: 42px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.pawbox{
+	position: relative;
+	padding-top: 0px !important;
+}
+.pawbox input{
+	width: 90%;
+    border: 0;
+    outline: 0;
+    font: 0.2rem "黑体";
+    color: #333;
+    background: #fff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 6% 5%;
+    margin: 10px 0;
+}
+.pawbox .phene{
+	margin-top: 0;
+}
+.pawbox .getdz{
+	position: absolute;
+    top: 15%;
+    width: 48px;
+    right: 5%;
+    height: 21px;
+    line-height: 21px;
+    font-size: 0.18rem;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #ccc;
+    border-color: #ccc;
+    color: #ccc;
+}
+.pawbox .eyes{
+	width: 20px;
+    height: 13px;
+    background-size: 20px 30px !important;
+    position: absolute;
+    top:64%;
+    right: 5%;
+    -moz-transition: transform .3s linear 0s;
+    -webkit-transition: transform .3s linear 0s;
+    -o-transition: transform .3s linear 0s;
+    transition: transform .3s linear 0s;
+}
+.regeistbox .btnbox{
+	width: 90%;
+    margin: 0 auto;
+}
+.regeistbox .btnbox .regeistbtn{
+	display: block;
+    width: 90%;
+    font-size: 0.22rem;
+    color: #fff;
+    text-align: center;
+    background: #0ac599;
+    -webkit-box-shadow: 0 2px 0 #008765;
+    -moz-box-shadow: 0 2px 0 #008765;
+    box-shadow: 0 2px 0 #008765;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5%;
+    letter-spacing: 1px
+}
+.regeistbox .btnbox .loginbtn{
+	display: block;
+    width: 90%;
+    font-size: 0.21rem;
+    color: #45e3be;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #45e3be;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5%;
+    letter-spacing: 1px
+}
+.regeistbox .btnbox .text{
+	color: #45e3be;
+    font-size: 0.15rem;
+    line-height: 1.3;
+    margin-bottom: 8px;
+}
+.regeistbox .btnbox .xieyi{
+	display: block;
+	color: #45e3be;
+    font-size: 0.15rem;
+    line-height: 1.3;
+    margin-top: 8px
+}
+.regeistbox .btnbox .xieyi a{
+	text-decoration: underline;
+}

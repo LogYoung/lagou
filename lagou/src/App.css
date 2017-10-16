@@ -1,0 +1,48 @@
+html {
+    font-family: Helvetica;
+    font-size: 65.5%;
+    color: #333;
+}
+body{
+  font-size: 16px
+}
+.header{
+  height: 45px;
+    line-height: 45px;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 0.21rem;
+    text-align: center;
+    position: relative;
+    z-index: 999;
+}
+.footer{
+  width: 100%;
+    height: 45px;
+    line-height: 45px;
+    border-top: 1px solid #e8e8e8;
+    background-color: #f6f6f6;
+    color: #c2cfcc;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    font-size: 0.2rem;
+}
+.footer a{
+    text-decoration: none;
+    color:  #c2cfcc;
+    display: block;
+    height: 100%;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    text-align: center;
+    width: 33%
+}
+.cheked{
+    color: #00b38a !important;
+    background-color: #e7f3f0;
+}

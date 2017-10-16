@@ -1,0 +1,116 @@
+.main{
+	margin-bottom: 45px;
+	width: 100%;
+}
+.listbox_header{
+	display: block;
+	border-bottom: 1px solid #e8e8e8;
+    height: 43px;
+    line-height: 43px;
+    padding: 0 15px;
+    color: #555;
+    position: relative;
+    font-size: 14px
+}
+
+.listbox_header a{
+	position: absolute;
+    right: 15px;
+    top: 0;
+    display: block;
+    float: right;
+    background-color: #f5f5f5;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    color: #00b38a;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.list{
+	margin: 0;
+    list-style: none;
+    -webkit-padding-start: 0;
+}
+.list li{
+	padding: 14px;
+    border-bottom: 1px solid #e8e8e8;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.list li .list_logo{
+	display: inline-block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+.list li .list_text{
+	margin-left: 70px;
+    height: 62px;
+    color: #333;
+}
+.list li .list_text h2{
+	font-size:0.18rem;
+    margin: 0;
+    margin-bottom: 6px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.list_info{
+    margin: 0;
+	margin-bottom: 6px;
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+	font-size:0.16rem;
+    float: left;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item-salary{
+	font-size: 0.16rem;
+    color: #00b38a;
+    float: right;
+}
+.list_time{
+    font-size: 0.1rem;
+    color: #888;
+}
+#morelist{
+	display: block;
+	height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 0.2rem;
+    background-color: #fafafa;
+}
+#copyright {
+    text-align: center;
+    font-size: 0.1rem;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    color: #333;
+}
+#copyright .copyright-item span.active {
+    color: #999;
+}
+#copyright a{
+	text-decoration: none;
+	color: #333;
+}
+.iconf{
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    padding-right: 2px;
+    background: url(https://www.lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -88px 7px;
+    background-size: 250px 250px;
+}

@@ -1,0 +1,250 @@
+#joblist{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	z-index: 99999;
+	height: 100%;
+	overflow: auto;
+	background: #ffffff;
+}
+.jobmain{
+	margin-bottom: 68px !important;
+}
+#joblist .jobheader{
+	height: 45px;
+    line-height: 45px;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 0.2rem;
+    text-align: center;
+    position: relative;
+}
+#joblist .jobheader .backbtn{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+}
+#joblist .jobheader .backhome{
+	position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+}
+#joblist .jobheader .backhome .iconf{
+    width: 17px;
+    height: 20px;
+    margin: 13px auto 0 auto;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon2.png) no-repeat -60px -46.5px;
+    background-size: 250px 250px;
+    display: inline-block
+}
+#joblist .jobheader .backbtn .iconf{
+	width: 9px;
+    height: 20px;
+    margin: 13px auto 0 auto;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon2.png) no-repeat -1.5px -20.5px;
+    background-size: 250px 250px;
+    display: inline-block;
+}
+#joblist .jobfooter{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    height: 44px;
+    width: 92%;
+    padding: 12px 4%;
+    line-height: 44px;
+    background-color: rgba(255,255,255,0.8);
+}
+#joblist .jobfooter .alerttext{
+	display: block;
+	width: 100%;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 0.2rem;
+    text-align: center;
+    border-radius: 3px;
+}
+#joblist .jobmain .mainheader{
+	height: 48px;
+    line-height: 48px;
+    padding: 0 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+#joblist .jobmain .mainheader h2{
+	color: #333;
+	margin: 0;
+    font-size: 0.22rem;
+    max-width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+}
+#joblist .jobmain .collicon {
+    float: right;
+    width: 39px;
+    position: relative;
+    text-align: center;
+    padding: 6px 10px 0 10px;
+    height: 43px;
+   }
+#joblist .jobmain .collicon .icon{
+	display: block;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+   	background: url(https://www.lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -170px -41px;
+    background-size: 250px 250px;
+   }
+ #joblist .jobmain .collicon .text{
+   	display: block;
+    color: #888;
+    font-size: 0.12rem;
+    line-height: 28px;
+}
+#joblist .jobmain .maincontenr{
+	border-bottom: 1px solid #e8e8e8;
+    min-height: 10px;
+    padding: 15px;
+    overflow: hidden;
+}
+#joblist .jobmain .maincontenr .items{
+	float: left;
+	width: 100%
+}
+#joblist .jobmain .maincontenr .temptation{
+	float: left;
+}
+#joblist .jobmain .maincontenr .items .item{
+	float: left;
+    color: #333;
+    font-size: 0.16rem;
+    position: relative;
+    width: 33.33%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 11px;
+}
+#joblist .jobmain .maincontenr .item:nth-child( 3n - 1) {
+    text-align: center;
+    }
+#joblist .jobmain .maincontenr .item:nth-child( 3n ) {
+    text-align: right;
+    }
+#joblist .jobmain .maincontenr .temptation{
+	color: #888;
+    word-break: break-all;
+    font-size: 0.16rem;
+}
+#joblist .jobmain .maincontenr .items .item .icon{
+	display: inline-block;
+    height: 13px;
+    width: 13px;
+    vertical-align: middle;
+}
+#joblist .jobmain .maincontenr .items .item .text{
+	display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+#joblist .jobmain .maincontenr .items .salary .icon{
+	background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -66px -48px;
+    background-size: 250px 250px;
+}
+#joblist .jobmain .maincontenr .items .workaddress .icon{
+	background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -79px -49px;
+    background-size: 250px 250px;
+}
+#joblist .jobmain .maincontenr .items .jobnature .icon{
+	background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -93px -49px;
+    background-size: 250px 250px;
+}
+#joblist .jobmain .maincontenr .items .workyear .icon{
+	background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -110.5px -49.5px;
+    background-size: 250px 250px;
+}
+#joblist .jobmain .maincontenr .items .education .icon{
+	background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -127.5px -49px;
+    background-size: 250px 250px;
+}
+#joblist .jobmain .logobox{
+	border-bottom: 1px solid #e8e8e8;
+    min-height: 10px;
+    padding: 15px;
+    overflow: hidden;
+}
+#joblist .jobmain .logobox img{
+	width: 60px;
+    height: 60px;
+    float: left;
+}
+#joblist .jobmain .logobox .text{
+	margin-left: 70px;
+    min-height: 10px;
+    overflow: hidden;
+}
+#joblist .jobmain .logobox .text .name{
+	color: #00b38a;
+    font-size: 0.18rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+#joblist .jobmain .logobox .text .desc{
+	float: left;
+    min-height: 10px;
+    min-width: 10px;
+    max-width: 80%;
+    overflow: hidden;
+}
+#joblist .jobmain .logobox .text .desc .textinfo{
+	color: #888;
+    font-size: 0.15rem;
+}
+#joblist .jobmain .logobox .text .icon{
+	float: right;
+    display: inline-block;
+    width: 23px;
+    height: 29px;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -222.5px -3.5px;
+    background-size: 250px 250px;
+    margin-top: 10px;
+}
+.jobmain .positiondesc{
+	min-height: 10px;
+}
+.jobmain .posiheader{
+	background-color: #00b38a;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 15px;
+    color: #00b38a;
+    font-size: 0.17rem;
+    background-color: #d2f9f0;
+}
+.jobmain .content{
+	word-break: break-all;
+    padding: 15px;
+    color: #555;
+    font-size: 0.15rem;
+    line-height: 22px;
+}
+.jobmain .content p{
+	margin:0;
+}
+.positioneval p{
+	padding: 15px;
+	margin: 0;
+    padding-bottom: 14px;
+    border-bottom: none;
+    font-size: 0.15rem;
+}

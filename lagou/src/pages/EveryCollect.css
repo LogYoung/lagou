@@ -1,0 +1,78 @@
+#Collect ul li{   
+    padding: 14px;
+    border-bottom: 1px solid #e8e8e8;
+    position: relative;
+}
+#Collect p,#Collect h1,#Collect h2,#Collect h3{
+    margin: 0;
+    padding: 0;
+}
+#Collect{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #ffffff;
+}
+#Collect ul li img{
+    display: inline-block;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+#Collect ul li .item-desc{
+    margin-left: 70px;
+    height: 62px;
+    color: #333;
+}
+#Collect ul li .item-desc .item-title{
+    font-size: 0.2rem;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#Collect ul li .item-desc .item-info{
+    margin-bottom: 6px;
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+}
+#Collect ul li .item-desc .item-info .item-pos{
+    width: 90%;
+    font-size: 0.14rem;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#Collect ul li .item-desc .item-time{
+    font-size: 0.1rem;
+    color: #888;
+}
+.desc-right{
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 27%;
+}
+.desc-left{
+    position: relative;
+    float: left;
+    width: 70%;
+}
+.desc-right .icon {
+    width: 20px;
+    height: 20px;
+    margin: 5px auto 18px auto;
+    background-size: 250px 250px;
+}
+.desc-right .salary{
+    width: 100%;
+    text-align: center;
+    font-size: 0.18rem;
+    color: #00b38a;
+}

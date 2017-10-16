@@ -1,0 +1,85 @@
+#Invitation #content{
+	padding: 15px;
+}
+
+#Invitation #content .plus{
+	width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 205px;
+    border: 1px solid #c7f3e9;
+    background-color: #eafffa;
+    padding: 12px;
+}
+#Invitation #content .plus .bulb{
+	width: 23px;
+    height: 33px;
+    background: url('https://static.lagou.com/images/mobile/asset/common/img/icon2.png') no-repeat -95px -69px;
+    background-size: 250px 250px;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+#Invitation #content .plus p{
+	font-size: 0.14rem;
+    color: #3f4e4b;
+    line-height: 20px;
+    text-indent: 0.32rem;
+    margin-top: 9px;
+}
+#Invitation #content .plus .plusbtn{
+	width: 45%;
+    margin: 9px auto;
+}
+#Invitation #content .plus .plusbtn span{
+	color: #3f4e4b;
+    display: inline-block;
+    font-size: 0.13rem;
+    position: relative;
+    top: -10px;
+    font-weight: bold;
+}
+#Invitation #content .plus .plusbtn .btn{
+	display: inline-block;
+    width: 68px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #5e5e5e;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 8px;
+}
+#Invitation #content .plus .plusbtn .btn .circle{
+	display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 12px;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+}
+#Invitation #content .plus .plusbtn .btn .close{
+	width: 12px;
+    height: 12px;
+    background: url('https://static.lagou.com/images/mobile/asset/common/img/icon2.png ') no-repeat -130px -49px;
+    background-size: 250px 250px;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+}
+#Invitation #content .explain{
+	margin-top: 20px;
+    padding-left: 8px
+}
+#Invitation #content .explain .txt{
+	margin-top: 12px;
+}
+#Invitation #content .explain .txt p{
+	color: #aaa;
+    font-size: 0.12rem;
+    line-height: 17px;
+}
+#Invitation #content .explain .txt p .indent{
+	padding-left: 10px;
+}

@@ -1,0 +1,231 @@
+.Search{
+	    margin-bottom: 45px;
+}
+.Search_header{
+	position: relative;
+    border-bottom: 1px solid #e8e8e8;
+    height: 45px;
+}
+.Search_left{
+	float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 0.18rem;
+    text-align: center;
+    width: 88px;
+    border-right: 1px solid #e8e8e8;
+}
+.city{
+	display: inline-block;
+	margin-right: 3px
+}
+.cityicon{
+	display: inline-block;
+	width: 8.5px;
+    height: 7px;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -1px -2.5px;
+    background-size: 250px 250px;
+}
+.Search_right{
+	height: 45px;
+    margin-left: 89px;
+    position: relative;
+}
+.inputer{
+	display: block;
+    border: none;
+    padding: 10px 0;
+    height: 25px;
+    line-height: 25px;
+    color: #333;
+    width: 75%;
+    margin: 0 0 0 5%;
+    font-size: 0.18rem;
+    float: left;
+    outline: none;
+}
+.search_icon{
+	display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin:14px;
+    line-height: 17px;
+    float: right;
+    position: relative;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -14px -2.5px;
+    background-size: 250px 250px;
+}
+.searchicon{
+	display: block;
+    margin: 14px auto 0 auto;
+    width: 17px;
+    height: 17px;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -14px -2.5px;
+    background-size: 250px 250px;
+}
+
+.hotcity .backbox{
+	position: fixed;
+	left: 0;
+    top: 0;
+    height: 45px;
+    width: 45px;
+    z-index: 99999
+}
+.hotcity .backbtn{
+	display: block;
+	width: 9px;
+    height: 20px;
+    margin: 13px auto 0 13px;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon2.png) no-repeat -1.5px -20.5px;
+    background-size: 250px 250px;
+    display: inline-block;
+}
+.citylist{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	padding: 0;
+
+}
+.citylist li{
+	height: 60px;
+	width: 33%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 0.16rem;
+    color: #333;
+    list-style: none;
+    float: left;
+    min-width: 100px;
+}
+.header{
+	position: fixed !important;
+	width: 100%;
+	overflow:hidden;
+}
+.main{
+	padding-top: 45px; 
+}
+.citylist p{
+	border-bottom: 1px solid #e8e8e8;
+	border-top: 1px solid #e8e8e8;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 15px;
+    font-size: 0.16rem;
+    color: #888;
+    margin:0;
+}
+.citylist div{
+	float: left;
+}
+.list{
+	margin: 0;
+    list-style: none;
+    overflow: auto;
+    -webkit-padding-start: 0;
+    margin-bottom: 45px
+}
+.list li{
+	padding: 14px;
+    border-bottom: 1px solid #e8e8e8;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.list li .list_logo{
+	display: inline-block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding: 0;
+}
+.list li .list_text{
+	margin-left: 70px;
+    height: 62px;
+    color: #333;
+}
+.list li .list_text h2{
+	font-size:0.18rem;
+    margin: 0;
+    margin-bottom: 6px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.list_info{
+    margin: 0;
+	margin-bottom: 6px;
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+	font-size:0.16rem;
+    float: left;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item-salary{
+	font-size: 0.16rem;
+    color: #00b38a;
+    float: right;
+}
+.list_time{
+    font-size: 0.1rem;
+    color: #888;
+}
+.isiibox{
+	text-align: center;
+    font-size: 0.17rem;
+    margin-top: 30px;
+    color: #c2cfcc;
+}
+.lsiispan{
+	width: 20px;
+    height: 20px;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -70px -18.5px;
+    background-size: 250px 250px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.isiibox .text{
+	display: inline-block;
+    vertical-align: middle;
+}
+.histotybox div:nth-child(1){
+	border-top: 1px solid #e8e8e8;
+}
+.histoty{
+    height: 45px;
+    line-height: 45px;
+    font-size: 0.16rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 0 0 23px;
+    background-color: #fafafa;
+    color: #666;
+}
+.histoty .text .delicon{
+	float: right;
+	display: inline-block;
+	float: right;
+	margin: 17.5px;
+    text-align: center;
+    width: 14%;
+    height: 10px;
+    width: 12px;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -71.5px -4px;
+    background-size: 250px 250px;
+}
+.morelist{
+	display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 0.2rem;
+    background-color: #fafafa;
+}

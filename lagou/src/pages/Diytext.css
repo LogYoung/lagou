@@ -1,0 +1,160 @@
+#Diytext{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	z-index: 99999;
+	overflow: auto;
+	background: #ffffff;
+	height: 100%;
+}
+#Diytext .Diytextheader{
+	height: 45px;
+    line-height: 45px;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 0.2rem;
+    text-align: center;
+    position: relative;
+}
+#Diytext .Diytextheader .backindex{
+	position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+}
+#Diytext .Diytextheader .backindex .iconf{
+	width: 9px;
+    height: 20px;
+    margin: 13px auto 0 auto;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon2.png) no-repeat -1.5px -20.5px;
+    background-size: 250px 250px;
+    display: inline-block;
+}
+#Diytext .Diytextfooter{
+	height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: #00b38a;
+    font-size: 0.2rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+#Diytext .Diytextmain{
+	height: 92%;
+	z-index:99;
+}
+#Diytext .Diytextmain ul{
+	padding: 20px;
+	margin: 0;
+    list-style: none;
+}
+#Diytext .Diytextmain ul li .listheader{
+	display: block;
+    color: #ccc;
+    font-size: 0.15rem;
+}
+#Diytext .Diytextmain ul li a{
+	text-decoration: none;
+	display: block;
+    margin: 10px 0 20px 0;
+    text-align: center;
+    height: 62.5px;
+    line-height: 62.5px;
+    color: #00b38a;
+    font-size: 0.18rem;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+}
+#Diytextinfo{
+	width: 100%;
+	height: 100%;
+	position:relative;
+	z-index: 9
+}
+#Diytext .Diytextmain #Diytextinfo .headericon{
+	position: absolute;
+	background: #00b38a;
+    left: 0;
+    top: -45px;
+    height: 45px;
+    width: 40px;
+    text-align: center;
+    color: #00b38a;
+}	
+#Diytext .Diytextmain #Diytextinfo .headericon .icon{
+	width: 9px;
+    height: 20px;
+    margin: 13px auto 0 auto;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon2.png) no-repeat -1.5px -20.5px;
+    background-size: 250px 250px;
+    display: inline-block;
+}
+#Diytext .Diytextmain #Diytextinfo .content{
+	height: 100%;
+}
+#Diytext .Diytextmain #Diytextinfo .content .contentheader{
+	background: url(https://lagou.com/images/mobile/asset/common/img/back-info.jpg) repeat;
+    background-size: 320px 125px;
+    height: 125px;
+    color: #00b38a;
+    font-size: 0.22rem;
+    text-align: center;
+    line-height: 125px;
+    border-bottom: 1px solid #e8e8e8;
+}
+#Diytext .Diytextmain #Diytextinfo .content .contentheader .text{
+	position:relative;
+}
+#Diytext .Diytextmain #Diytextinfo .content .contentheader .icon1{
+    display: inline-block;
+    width: 13px;
+    height: 10.5px;
+    position: absolute;
+	left: -20px;
+    top: -2px;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -102.5px -4px;
+    background-size: 250px 250px;
+}
+#Diytext .Diytextmain #Diytextinfo .content .contentheader .icon2{
+	display: inline-block;
+    width: 13px;
+    height: 10.5px;
+    position: absolute;
+    right: -17px;
+    top: 15px;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon.png) no-repeat -119.5px -4px;
+    background-size: 250px 250px;
+}
+.content .Predataul{
+	padding: 0 !important;
+	margin-left: 15px !important;
+}
+.content .Predataul li{
+	height: 44px;
+    line-height: 44px;
+    color: #666;
+    font-size: 0.17rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 15px 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.Predataulbox{
+	width: 100%;
+	z-index: 99999;
+	background: #ffffff;
+	overflow: auto;
+}
+#Diytext .Diytextmain .citylist{
+	padding: 0;
+}

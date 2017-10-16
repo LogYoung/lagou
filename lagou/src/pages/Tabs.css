@@ -1,0 +1,130 @@
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#Interview #Tabs{
+	background-color: #f0f0f0;
+    height: 100%;
+    border-bottom: 1px solid #e8e8e8;
+}
+#Interview{
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #ffffff;
+}
+#Tabs .tabs{
+	display: flex;
+	background-color: #fff;
+    height: 42.5px;
+    line-height: 42.5px;
+    border-bottom: 1px solid #e8e8e8;
+	
+}
+#Interview #Tabs .tabs span{
+	flex:1;
+	text-align: center;
+    color: #333;
+    font-size: 0.16rem;
+    height: 100%;
+}
+#Interview #Tabs .tabs .current{
+	color: black;
+	background: #f0f0f0;;
+}
+
+#Sendresume #Tabs .tabs span{
+	flex:1;
+	text-align: center;
+	background: #fff;
+    color: #333;
+    font-size: 0.16rem;
+    height: 100%;
+}
+#Sendresume #Tabs .tabs .current{
+	color: #00b38a;
+	background-color: #f0f0f0;
+}
+
+
+
+
+#Interview #Tabs .nointerview{
+	text-align: center;
+    font-size: 0.17rem;
+    margin-top: 30px;
+    color: black;
+}
+
+#Interview #Tabs .nointerview>a{
+	color: #00b38a;
+    text-decoration: underline;
+}
+#Interview #Tabs .interview{
+	text-align: center;
+    font-size: 0.15rem;
+   height: 50px;
+   line-height: 50px;
+
+    border-bottom: 1px solid #e8e8e8;
+}
+
+
+
+#Sendresume{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #ffffff;
+}
+#Sendresume #Tabs .nosendresume{
+	text-align: center;
+    font-size: 0.17rem;
+    margin-top: 30px;
+    color: #c2cfcc;
+}
+
+
+#Sendresume #Tabs .sendresume{
+	text-align: center;
+    font-size: 0.17rem;
+   height: 50px;
+   line-height: 50px;
+    border-bottom: 1px solid #e8e8e8;
+}
+#Sendresume #Tabs ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+ .Sendresumeheader{
+    height: 45px;
+    line-height: 45px;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 0.2rem;
+    text-align: center;
+    position: relative;
+}
+ .Sendresumeheader .iconbox{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 40px;
+}
+ .Sendresumeheader .iconbox .icon{
+    width: 9px;
+    height: 20px;
+    margin: 13px auto 0 auto;
+    background: url(https://lagou.com/images/mobile/asset/common/img/icon2.png) no-repeat -1.5px -20.5px;
+    background-size: 250px 250px;
+    display: inline-block;
+}
